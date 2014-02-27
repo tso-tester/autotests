@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{71c10ac9-2c84-427d-b15c-bb70b1f824f2}">
+				<Node name="{0273cc71-4894-459b-8ea3-18a5eef7c99e}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\card_activation\"/>
+				</Node>
+				<Node name="{02931574-7c2e-44b2-9be3-917cab61c4cc}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\insurance\estate\"/>
+				</Node>
+				<Node name="{03ea8ab6-0c09-44a0-b0f1-3bcd6cf150ba}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\privat_money\"/>
+				</Node>
+				<Node name="{05a76b82-3ea0-4e72-a083-d5aca7e3814c}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+				</Node>
+				<Node name="{09704651-7c98-47a0-b3b3-be0601e7681a}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{0c1dca51-b778-4966-b668-8c8519165591}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\card_activation\"/>
+				</Node>
+				<Node name="{0d0c25c5-bcc0-496a-a106-2e7913a2e812}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{104e2bcc-f591-4e87-9477-ce72b8a47e4e}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\p24\"/>
+				</Node>
+				<Node name="{126f065f-4d12-4fa6-9f46-8ea97108bc71}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\insurance\every_day_card\"/>
+				</Node>
+				<Node name="{148884b3-ef8d-4520-ab0f-c3006ac958e4}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\credit\"/>
+				</Node>
+				<Node name="{167ce27f-d7a6-451a-8d7e-744125953bbc}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\card_activation\"/>
+				</Node>
+				<Node name="{16d27257-2367-4745-ae87-97c1724ca83e}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\replenish\"/>
+				</Node>
+				<Node name="{1e75b166-21a8-4a83-b39c-bb4d7725c631}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\pm\"/>
+				</Node>
+				<Node name="{20b03127-5178-4f4f-ae58-b0c83d8019ad}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{2648fb2d-0bde-469a-8433-3db89fce84c4}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\card_activation\"/>
+				</Node>
+				<Node name="{29d3be49-1fca-40ec-9d47-5663d0435bc9}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{2ac708f3-c70e-4ac8-b8fa-d4889711156a}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+				</Node>
+				<Node name="{2b6c4773-cb56-4edb-884f-1e316a4e19b8}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\my_deposits\"/>
+				</Node>
+				<Node name="{2b750b9f-eef2-4207-b5c3-df87eddca64d}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{2ce3f948-ef6c-4397-98b4-d520987551c2}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\credit\"/>
+				</Node>
+				<Node name="{2e936fdd-fffe-415d-8a39-9e7fa98c6a76}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+				</Node>
+				<Node name="{3357a5c8-1fec-470b-823d-e0ad59fc92db}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{340cd63d-6317-42c8-8949-b0d3b4734348}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\privat_money\"/>
+				</Node>
+				<Node name="{34a264ed-45ad-4d12-9890-8da6f1a7f670}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+				</Node>
+				<Node name="{35c9552e-f4c1-4b37-a1f2-2fb52615eddb}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\card\"/>
+				</Node>
+				<Node name="{36521aa3-358a-4d6b-8073-cf24320774a0}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\balanse\"/>
+				</Node>
+				<Node name="{3912297a-ab80-4609-a0e9-f8d2303ecea0}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{3990475b-6a81-4389-abc4-64a285c9dda0}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\insurance\my_agreements\"/>
+				</Node>
+				<Node name="{3d1282b4-e40a-404b-86ff-9cbaee830a61}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\account_operations\"/>
+				</Node>
+				<Node name="{3e9b8d81-f80a-4cf0-85c6-e6e292f9c407}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\vipiska\"/>
+				</Node>
+				<Node name="{40444c8c-c88f-435a-8913-33c329ad8688}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{421b0211-9f39-4d54-ba8a-4cf75ed0e8a5}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\simpliest_payments\"/>
+				</Node>
+				<Node name="{42e7d185-7deb-4562-85d4-4be4ee983453}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\bank_response\"/>
+				</Node>
+				<Node name="{4362493b-1d26-4ee2-be9f-31e9ce69d66e}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\soc_net\wot\"/>
+				</Node>
+				<Node name="{47068c4a-0442-4028-8fd1-5c89caa4f064}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{47751ec6-693a-431d-b5be-6ba06c447c8f}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{47be00dc-3715-429c-8852-3400e599111c}">
+					<Prp name="filepath" type="S" value="C:\Program Files (x86)\Notepad++\"/>
+				</Node>
+				<Node name="{47da8b58-0173-4c8d-88f1-29346a4efebf}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{4eb797be-ab28-44ab-9c1c-551d10bd7c99}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\account_operations\"/>
+				</Node>
+				<Node name="{5081412b-61e4-4e70-9d5e-7158b0254446}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\moneygram\"/>
+				</Node>
+				<Node name="{515eab06-fda2-43af-b768-c73453720ca1}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+				</Node>
+				<Node name="{522b72e9-1c8e-4ef6-8625-e6c150a733e4}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\insurance\my_agreements\"/>
+				</Node>
+				<Node name="{53b2d5d2-4e33-457e-a342-a9f61f3a183e}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\insurance\every_day_card\"/>
+				</Node>
+				<Node name="{554e2336-b4af-40d8-ae94-0d192efae04d}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\acc_number\"/>
+				</Node>
+				<Node name="{5600c847-9818-4713-9032-1d0f1b32d15d}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{582fe0f0-d004-47a2-a529-e0b00d139a26}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+				</Node>
+				<Node name="{58601fe4-5db4-4886-bef8-6f1410d7124f}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\mc_visa\"/>
+				</Node>
+				<Node name="{5d5fba0f-c504-4037-a657-b4eee197464a}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\mc_visa\"/>
+				</Node>
+				<Node name="{5d60d2e7-1629-4dc5-8d59-20fe5d62a7e1}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{69cabc65-dff9-4f3c-8464-b253555f25fc}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\credit\"/>
+				</Node>
+				<Node name="{6ceb6e79-3641-4d24-9b1f-2854b8d3e31f}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\my_deposits\"/>
+				</Node>
+				<Node name="{6f92cb0f-07ef-4e01-bbee-50eb62ca73fc}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\my_deposits\"/>
+				</Node>
+				<Node name="{7474ac18-ac36-4051-b5a6-5f5387f3ce10}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\simpliest_payments\"/>
+				</Node>
+				<Node name="{750c032f-4611-4fb4-b171-86bd5a2caecf}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{76d066d0-4cdd-4e1d-a937-c39cee81d129}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{7aee0d59-356d-4f60-aecf-e7972484c332}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\soc_net\wot\"/>
+				</Node>
+				<Node name="{8046aea0-2731-41e6-99aa-1060c170bc89}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+				</Node>
+				<Node name="{805ff78b-c28d-4320-aa78-dd4018b9f70a}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+				</Node>
+				<Node name="{876f05e8-970b-4147-9626-28a419e57a06}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\unistream\"/>
+				</Node>
+				<Node name="{884707b3-9722-4b44-8834-15bcf36b942a}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{8e7575a9-a1dd-4b84-be5a-afaf65c91a52}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\credit\"/>
+				</Node>
+				<Node name="{8f5e6d95-a656-4e3c-a498-04346238f287}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{91fc1bb0-d33d-4459-80dc-af34d4fbcf75}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\replenish\"/>
+				</Node>
+				<Node name="{98dce16d-976b-47c0-8bfc-65afc51056a4}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\card\"/>
+				</Node>
+				<Node name="{997666d7-80d3-4a38-91b1-327a29c6d82c}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{9f0800e7-8163-4841-b81b-f7611fff2fda}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\moneygram\"/>
+				</Node>
+				<Node name="{a20a2e05-dada-4902-88e8-f8eca771c4e9}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\moneygram\"/>
+				</Node>
+				<Node name="{ab883676-6639-415b-b6ed-9d3c96d89be7}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+				</Node>
+				<Node name="{acd0ca10-dc64-4f69-83b8-31622316b08c}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\vipiska\"/>
+				</Node>
+				<Node name="{b04bd704-028d-4308-828e-c50c0eb0f534}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\acc_number\"/>
+				</Node>
+				<Node name="{b10ec86c-6e61-4d96-b019-b7efe91948ff}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\soc_net\vk\"/>
+				</Node>
+				<Node name="{b26660c5-86f3-4bcf-9451-24b2f0d82330}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\moneygram\"/>
+				</Node>
+				<Node name="{b2746b84-70ed-4c33-9502-ae5025aa3aa2}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+				</Node>
+				<Node name="{b387d9e8-d380-4e4a-bbc3-13e1ed2ba787}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\p24\"/>
+				</Node>
+				<Node name="{b408fac2-1c4b-4fc7-b0cb-0e7a8df87038}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\pm\"/>
+				</Node>
+				<Node name="{b456de4d-bd6e-414a-a77d-2594a1d68eb0}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\soc_net\vk\"/>
+				</Node>
+				<Node name="{b6578b34-a093-4dfa-85ca-e1587407fe5d}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\pm\"/>
+				</Node>
+				<Node name="{bc6108fd-5c8a-4f6e-9e9c-fd3beea5fd08}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\soc_net\vk\"/>
+				</Node>
+				<Node name="{c29d2af2-2854-43f4-9fe4-9280e5dbd662}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\unistream\"/>
+				</Node>
+				<Node name="{c36f006e-8074-4072-b3cf-b49a5c4c2316}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\moneygram\"/>
+				</Node>
+				<Node name="{c56c7f5b-db20-4b10-a492-183f7caa3957}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{cb9b464c-64e2-4667-a2ed-5c1318d2b6f7}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+				</Node>
+				<Node name="{cd0ce3eb-bb63-4ebf-b76b-576d7ccf6d5c}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\account_operations\"/>
+				</Node>
+				<Node name="{d00bbfe5-61da-4839-99f5-1c45624a40b2}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\privat_money\"/>
+				</Node>
+				<Node name="{d169bff8-b73d-41dd-a931-dcceb21189cd}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\unistream\"/>
+				</Node>
+				<Node name="{d2678091-3c93-42a2-95a4-327384f4d2de}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\balanse\"/>
+				</Node>
+				<Node name="{d2e6b4fe-eff7-4ba7-bf45-77401c78aa71}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+				</Node>
+				<Node name="{d33a75c6-fb63-4b61-99bc-233c70a4d866}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\unistream\"/>
+				</Node>
+				<Node name="{d5796955-0fac-4a8f-bcbc-2998dd26f4ae}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\acc_number\"/>
+				</Node>
+				<Node name="{d7286f4e-8437-4eed-9eca-419fb565182a}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{d8e4e6de-4eed-489f-b6c5-63ba8318f883}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\insurance\my_agreements\"/>
+				</Node>
+				<Node name="{dbfe9992-3a73-44f4-b74f-47fdaf8699d9}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_send\privat_money\"/>
+				</Node>
+				<Node name="{dc3cb223-f9d2-4969-bd3d-2864b2356aa1}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\unistream\"/>
+				</Node>
+				<Node name="{df65624e-c30d-4526-ac99-4405a93c5d65}">
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+				</Node>
+				<Node name="{e735559d-fe74-4fc0-93fc-ea2e226eac35}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\vipiska\"/>
+				</Node>
+				<Node name="{e85b3b5d-28d7-408f-8a70-af6ac5837524}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\replenish\"/>
+				</Node>
+				<Node name="{ecc5ff19-6b90-483e-b6a8-9180dd150487}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+				</Node>
+				<Node name="{f29507bf-2f19-41ad-adaf-ecc1da6ce1af}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\money_get\unistream\"/>
+				</Node>
+				<Node name="{fcfd2cc4-0536-4762-8116-55c5aff19d0d}">
+					<Prp name="filepath" type="S" value="D:\Autotests\common\balanse\"/>
+				</Node>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{DAB58CF5-2328-4943-B8C8-D85AB276EAA5}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>

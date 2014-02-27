@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="SetNumCard.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="SetNumCard"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{5D60D2E7-1629-4DC5-8D59-20FE5D62A7E1}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item1">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="EppPinText.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="EppPinText"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{40444C8C-C88F-435A-8913-33C329AD8688}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item10">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="Balance.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="Balance1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{C56C7F5B-DB20-4B10-A492-183F7CAA3957}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item11">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="BiplanResponse1.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="BiplanResponse11"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{47DA8B58-0173-4C8D-88F1-29346A4EFEBF}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item12">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="BiplanResponse2.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="BiplanResponse21"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{3357A5C8-1FEC-470B-823D-E0AD59FC92DB}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item13">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="BiplanResponse3.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="BiplanResponse31"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{0D0C25C5-BCC0-496A-A106-2E7913A2E812}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item14">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="PhoneNumberCheck.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="PhoneNumberCheck1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{750C032F-4611-4FB4-B171-86BD5A2CAECF}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item15">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="ValidatorStoped.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="ValidatorStoped1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{ECC5FF19-6B90-483E-B6A8-9180DD150487}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item16">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="SetNominal.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="SetNominal"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{5600C847-9818-4713-9032-1D0F1B32D15D}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item17">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="balance_bonus.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\balanse\"/>
+					<Prp name="node name" type="S" value="balance_bonus"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{FCFD2CC4-0536-4762-8116-55C5AFF19D0D}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item18">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="credit_debt.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\balanse\"/>
+					<Prp name="node name" type="S" value="credit_debt"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{36521AA3-358A-4D6B-8073-CF24320774A0}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item19">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="TIC_check.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\balanse\"/>
+					<Prp name="node name" type="S" value="TIC_check"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{D2678091-3C93-42A2-95A4-327384F4D2DE}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item2">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="Balance.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="Balance"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{D7286F4E-8437-4EED-9ECA-419FB565182A}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item20">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="card_payment.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="card_payment"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{47751EC6-693A-431D-B5BE-6BA06C447C8F}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item21">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="acc_list_card.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\card\"/>
+					<Prp name="node name" type="S" value="acc_list_card"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{35C9552E-F4C1-4B37-A1F2-2FB52615EDDB}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item22">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="pay_card.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\card\"/>
+					<Prp name="node name" type="S" value="pay_card"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{98DCE16D-976B-47C0-8BFC-65AFC51056A4}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item23">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="acc_number_check.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\acc_number\"/>
+					<Prp name="node name" type="S" value="acc_number_check"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{554E2336-B4AF-40D8-AE94-0D192EFAE04D}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item24">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="ekb_info.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\acc_number\"/>
+					<Prp name="node name" type="S" value="ekb_info"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{D5796955-0FAC-4A8F-BCBC-2998DD26F4AE}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item25">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="pay_acc_num.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\acc_number\"/>
+					<Prp name="node name" type="S" value="pay_acc_num"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{B04BD704-028D-4308-828E-C50C0EB0F534}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item26">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="sms_send.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+					<Prp name="node name" type="S" value="sms_send"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{805FF78B-C28D-4320-AA78-DD4018B9F70A}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item27">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="sms_pass_check.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+					<Prp name="node name" type="S" value="sms_pass_check"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{B2746B84-70ED-4C33-9502-AE5025AA3AA2}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item28">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="acc_list_tel.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+					<Prp name="node name" type="S" value="acc_list_tel"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{34A264ED-45AD-4D12-9890-8DA6F1A7F670}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item29">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="acc_check.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+					<Prp name="node name" type="S" value="acc_check"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{CB9B464C-64E2-4667-A2ED-5C1318D2B6F7}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item3">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="BiplanResponse1.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="BiplanResponse1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{29D3BE49-1FCA-40EC-9D47-5663D0435BC9}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item30">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="pay_tel.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\proceeds\phone\"/>
+					<Prp name="node name" type="S" value="pay_tel"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{AB883676-6639-415B-B6ED-9D3C96D89BE7}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item31">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="ekb_info.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+					<Prp name="node name" type="S" value="ekb_info1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{582FE0F0-D004-47A2-A529-E0B00D139A26}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item32">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="kop_info.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+					<Prp name="node name" type="S" value="kop_info"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{2AC708F3-C70E-4AC8-B8FA-D4889711156A}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item33">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="kop_card_list.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+					<Prp name="node name" type="S" value="kop_card_list"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{515EAB06-FDA2-43AF-B768-C73453720CA1}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item34">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="kop_money_back.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+					<Prp name="node name" type="S" value="kop_money_back"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{8046AEA0-2731-41E6-99AA-1060C170BC89}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item35">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="pay.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+					<Prp name="node name" type="S" value="pay"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{2E936FDD-FFFE-415D-8A39-9E7FA98C6A76}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item36">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="sms_send.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+					<Prp name="node name" type="S" value="sms_send1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{D2E6B4FE-EFF7-4BA7-BF45-77401C78AA71}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item37">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="sms_pass_check.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\kop\"/>
+					<Prp name="node name" type="S" value="sms_pass_check1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{05A76B82-3EA0-4E72-A083-D5ACA7E3814C}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item38">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="deposit_list.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\replenish\"/>
+					<Prp name="node name" type="S" value="deposit_list"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{E85B3B5D-28D7-408F-8A70-AF6AC5837524}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item39">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="account_check.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\replenish\"/>
+					<Prp name="node name" type="S" value="account_check"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{16D27257-2367-4745-AE87-97C1724CA83E}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item4">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="BiplanResponse2.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="BiplanResponse2"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{884707B3-9722-4B44-8834-15BCF36B942A}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item40">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="pay.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\replenish\"/>
+					<Prp name="node name" type="S" value="pay1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{91FC1BB0-D33D-4459-80DC-AF34D4FBCF75}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item41">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value="D:\Autotests\common\deposit\my_dep_ORDER.txt"/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="notepad++.exe"/>
+					<Prp name="filepath" type="S" value="C:\Program Files (x86)\Notepad++\"/>
+					<Prp name="node name" type="S" value="notepad"/>
+					<Prp name="parameters" type="S" value="D:\Autotests\common\deposit\my_dep_ORDER.txt"/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{47BE00DC-3715-429C-8852-3400E599111C}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item42">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="deposit_list.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\my_deposits\"/>
+					<Prp name="node name" type="S" value="deposit_list1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{6CEB6E79-3641-4D24-9B1F-2854B8D3E31F}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item43">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="account_check.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\my_deposits\"/>
+					<Prp name="node name" type="S" value="account_check1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{2B6C4773-CB56-4EDB-884F-1E316A4E19B8}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item44">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="pay.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\deposit\my_deposits\"/>
+					<Prp name="node name" type="S" value="pay2"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{6F92CB0F-07EF-4E01-BBEE-50EB62CA73FC}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item45">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="acc_info_0.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\credit\"/>
+					<Prp name="node name" type="S" value="acc_info_0"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{2CE3F948-EF6C-4397-98B4-D520987551C2}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item46">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="pay.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\credit\"/>
+					<Prp name="node name" type="S" value="pay3"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{69CABC65-DFF9-4F3C-8464-B253555F25FC}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item5">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="BiplanResponse3.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="BiplanResponse3"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{3912297A-AB80-4609-A0E9-F8D2303ECEA0}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item6">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="PhoneNumberCheck.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="PhoneNumberCheck"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{DF65624E-C30D-4526-AC99-4405A93C5D65}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item7">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="ValidatorStoped.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\mts\responses\"/>
+					<Prp name="node name" type="S" value="ValidatorStoped"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{997666D7-80D3-4A38-91B1-327A29C6D82C}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item8">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="SetNumCard.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="SetNumCard1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{20B03127-5178-4F4F-AE58-B0C83D8019AD}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Node name="item9">
+				<Node name="config">
+					<Node name="runmodeparams">
+						<Node name="debug">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="profile">
+							<Prp name="aqtimeversion" type="I" value="0"/>
+							<Prp name="createnewinstance" type="B" value="0"/>
+							<Prp name="forcerunmode" type="B" value="0"/>
+							<Prp name="overrideprofiler" type="B" value="0"/>
+							<Prp name="profilername" type="S" value=""/>
+							<Prp name="profilerunmode" type="S" value="Silent"/>
+							<Prp name="projectfilename" type="S" value=""/>
+							<Prp name="useproject" type="B" value="0"/>
+						</Node>
+						<Node name="runas">
+							<Prp name="domain" type="S" value=""/>
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="password" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="username" type="S" value=""/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Node name="simple">
+							<Prp name="parameters" type="S" value=""/>
+							<Prp name="userelativeworkingfolder" type="B" value="-1"/>
+							<Prp name="workfolder" type="S" value=""/>
+						</Node>
+						<Prp name="activerunmode" type="S" value="Simple"/>
+					</Node>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="filename" type="S" value="EppPinText.bat"/>
+					<Prp name="filepath" type="S" value="D:\Autotests\common\"/>
+					<Prp name="node name" type="S" value="EppPinText1"/>
+					<Prp name="parameters" type="S" value=""/>
+					<Prp name="userchangename" type="B" value="0"/>
+					<Prp name="workfolder" type="S" value=""/>
+				</Node>
+				<Node name="data"/>
+				<Node name="test data"/>
+				<Prp name="key" type="S" value="{76D066D0-4CDD-4E1D-A937-C39CEE81D129}"/>
+				<Prp name="type" type="S" value="{FD30A383-63C2-4C25-948C-2595C0F81320}"/>
+				<Prp name="typename" type="S" value="Tested Application"/>
+			</Node>
+			<Prp name="item count" type="I" value="47"/>
+		</Node>
+		<Node name="config">
+			<Prp name="node name" type="S" value="TestedApps"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="test data"/>
+		<Prp name="key" type="S" value="{71C10AC9-2C84-427D-B15C-BB70B1F824F2}"/>
+		<Prp name="signature" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="type" type="S" value="{90D101C8-80C7-48D4-9055-2E451B9BCD75}"/>
+		<Prp name="typename" type="S" value="Tested Applications"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

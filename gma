@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+
+<div align="left" >
+<a href="vars" title="Command Vars" target="_self">Vars</a>
+<a href="gma" title="Command GMA" target="_self">GMA</a>
+<a href="actions" title="Actions" target="_self">Actions</a>
+<a href="trace" title="Trace" target="_self">Trace</a>
+<a href="debugMode" title="DebugMode" target="_self">DebugMode</a>
+<a href="xslt" title="XSLT" target="_self">XSLT</a>
+</div>
+    <script>
+      var xmlDoc = null ;  
+      function send(url) {
+        if (typeof window.ActiveXObject != 'undefined' ) {
+          xmlDoc = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        else {
+          xmlDoc = new XMLHttpRequest();
+        }
+        xmlDoc.open( "GET", url, true );
+        xmlDoc.send( null );
+      }
+
+      function reload() {
+        window.location.reload()
+      }
+
+  </script>
+<br/>
+
+
+------------GMA--------------<br/>
+<button onclick="reload()">Update</button>
+<xmp>${allGMAToString()}</xmp>
+
+<br/>
+</body>
+</html>
